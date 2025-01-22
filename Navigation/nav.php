@@ -1,3 +1,5 @@
+<?php
+require_once '/Users/irvinysl/Dowloads/conf.php';
 <div class="burger-menu" id="burger-menu">
           <!-- Icone du burger (simple bouton pour le moment) -->
           <button id="burger-btn">☰</button>
