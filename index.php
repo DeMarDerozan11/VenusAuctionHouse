@@ -1,6 +1,6 @@
 <?php
 <?php
-require_once '/Users/irvinysl/Documents/site/conf.php';
+require_once '/Users/irvinysl/Dowloads/conf.php';
 
 try {
     $stmt = $pdo->query("SELECT 1");
