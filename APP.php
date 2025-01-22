@@ -6,7 +6,7 @@ $is_logged_in = isset($_SESSION['Num_client']);
 
 // Inclure la connexion à la base de données
 include 'connexion.php';
-require_once '/Users/irvinysl/Downloads/conf.php';
+
 ?>
 
 
