@@ -1,5 +1,5 @@
 <?php
-require_once '/Users/irvinysl/Downloads/conf.php';
+require_once 'boostrap.php';
 header('Location: APP.php');
 exit;
 
