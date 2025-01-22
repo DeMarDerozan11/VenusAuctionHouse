@@ -1,6 +1,5 @@
 <?php
-// Inclure conf.php pour toutes les pages
-require_once '/Users/irvinysl/site/conf.php';
+
 
 // Vérifier si une page est spécifiée dans l'URL
 if (!isset($_GET['page'])) {
