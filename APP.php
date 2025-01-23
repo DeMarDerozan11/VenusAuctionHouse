@@ -30,7 +30,7 @@ try {
     <link rel="stylesheet" href="APP.css">
 </head>
 <body>
-    <?php include('Barre de recherche.php') ?>
+    <?php include('barre de recherche.php') ?>
 
 
     <div class="content-box">
