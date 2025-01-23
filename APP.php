@@ -6,6 +6,8 @@ $is_logged_in = isset($_SESSION['Num_client']);
 
 // Inclure la connexion à la base de données
 include 'connexion.php';
+include_once 'conf.php';
+$pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
 
 ?>
 
