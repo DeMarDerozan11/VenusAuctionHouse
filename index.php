@@ -1,4 +1,6 @@
 <?php
+
+session_start();
 include_once 'conf.php';
 // Vérifie si le fichier APP.php existe
 if (file_exists('APP.php')) {
