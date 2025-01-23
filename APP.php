@@ -5,7 +5,8 @@ session_start(); // Démarre la session
 $is_logged_in = isset($_SESSION['Num_client']);
 
 // Inclure la connexion à la base de données
-include 'connexion.php';
+
+include 'conf.php';
 
 ?>
 
