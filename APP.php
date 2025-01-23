@@ -7,7 +7,15 @@ $is_logged_in = isset($_SESSION['Num_client']);
 // Inclure la connexion à la base de données
 
 include 'conf.php';
-$pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
+try {
+    // Créer une connexion PDO avec les informations de conf.php
+    $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "Connexion réussie à la base de données !"; // Message de test
+} catch (PDOException $e) {
+    // Gestion des erreurs de connexion
+    die("Erreur de connexion : " . $e->getMessage());
+}
 ?>
 
 
