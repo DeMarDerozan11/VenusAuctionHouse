@@ -1,6 +1,6 @@
 <?php
-
-host=getenv("MYSQL_HOST")
-user=getenv("MYSQL_USER")
-password=getenv("MYSQL_PASSWORD")
-database=getenv("MYSQL_DATABASE")
+$host = getenv("herogu.garageisep.com");
+$user = getenv("23eBbNoI6B_venus");
+$pass = getenv("gv6TuEbPKUDFsEjY");
+$db = getenv("no1hbDJ3Pm_venus");
+?>
