@@ -1,4 +1,5 @@
 <?php
+include_once 'conf.php'
 // Vérifie si le fichier APP.php existe
 if (file_exists('APP.php')) {
     // Redirection vers APP.php
